@@ -4,7 +4,8 @@
   "description": "Film access and stream resource provider",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,7 +33,6 @@
     "express-validator": "^6.4.0",
     "helmet": "^3.21.3",
     "morgan": "^1.9.1",
-    "sqlite3": "^4.1.1",
     "tingodb": "^0.6.1"
   },
   "devDependencies": {
