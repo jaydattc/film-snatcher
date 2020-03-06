@@ -111,7 +111,7 @@ const MovieDetails = props => {
               ></Input>
             </FormControl>
             <FormControl>
-              <FormLabel htmlFor="resourceName">Resource name</FormLabel>
+              <FormLabel htmlFor="addedBy">Added by</FormLabel>
               <Input
                 type="text"
                 id="addedBy"
