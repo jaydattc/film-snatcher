@@ -7,7 +7,7 @@ export const movieDbApi = axios.create({
   baseURL: "https://api.themoviedb.org/3/",
 })
 const backendApi = axios.create({
-  baseURL: "http://localhost:3000/api/",
+  baseURL: "/api/",
 })
 
 export const search = query =>
