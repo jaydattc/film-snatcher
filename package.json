@@ -1,0 +1,56 @@
+{
+  "name": "film-snatcher",
+  "version": "0.0.1",
+  "description": "Film access and stream resource provider",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydattc/film-snatcher.git"
+  },
+  "keywords": [
+    "film",
+    "movies",
+    "imbd"
+  ],
+  "author": "Jaydattsinh Champavat (@jaydattc)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydattc/film-snatcher/issues"
+  },
+  "homepage": "https://github.com/jaydattc/film-snatcher#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "helmet": "^3.21.3",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.1.1",
+    "tingodb": "^0.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.3.0",
+    "cross-env": "^5.2.1",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.0.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  }
+}
