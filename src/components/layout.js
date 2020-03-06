@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import { ThemeProvider, theme } from "@chakra-ui/core"
 import Header from "./header"
 import "./layout.css"
 
@@ -47,5 +47,9 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
-export default Layout
+const LayoutWrapper = props => (
+  <ThemeProvider theme={theme}>
+    <Layout {...props} />
+  </ThemeProvider>
+)
+export default LayoutWrapper
